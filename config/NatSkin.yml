@@ -1,0 +1,63 @@
+foswiki_site_preferences:
+  - SKIN: nat
+
+foswiki_packages:
+  - AutoRedirectPlugin
+  - AutoTemplatePlugin
+  - BreadCrumbsPlugin
+  - CacheContrib
+  - CopyContrib
+  - DBCacheContrib
+  - DBCachePlugin
+  - DiffPlugin
+  - DocumentViewerPlugin
+  - FilterPlugin
+  - FlexFormPlugin
+  - FlexWebListPlugin
+  - GridLayoutPlugin
+  - ImageGalleryPlugin
+  - ImagePlugin
+  - JQAjaxFormContrib
+  - JQPhotoSwipeContrib
+  - JQSelect2Contrib
+  - JsonRpcContrib
+  - LikePlugin
+  - ListyPlugin
+  - MoreFormfieldsPlugin
+  - MediaElementPlugin
+  - MetaCommentPlugin
+  - MetaDataPlugin
+  - MimeIconPlugin
+  - MultiLingualPlugin
+  - NatSkin
+  - NatSkinPlugin
+  - RedDotPlugin
+  - RenderPlugin
+  - TopicInteractionPlugin
+  - TopicTitlePlugin
+  - TrashPlugin
+  - WebCreatorPlugin
+  - WebFontsContrib
+  - WebLinkPlugin
+  - XSendFileContrib
+
+cpan_packages:
+  - Sereal
+  - Spreadsheet::Read
+  - Spreadsheet::Write
+
+alpine_packages:
+  - imagemagick
+  - imagemagick-perlmagick 
+  - perl-libwww
+  - perl-json
+  - perl-json-xs
+  - perl-scalar-list-utils
+  - perl-text-unidecode
+  - perl-algorithm-diff-xs
+  - perl-algorithm-diff
+  - perl-chi
+
+provision:
+  - scripts/NatSkin.sh
+

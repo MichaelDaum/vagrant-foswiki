@@ -1,0 +1,81 @@
+Desc: Foswiki
+box: generic/alpine312
+
+host_name: 
+domain_name: local.test
+memory: 2048
+cpus: 2
+
+foswiki_version: 2.1.7
+foswiki_password: 
+
+http_proxy: 
+
+mail_relay_host: 
+mail_root_alias:
+
+foswiki_packages:
+
+foswiki_site_preferences:
+  - WIKITOOLNAME: Foswiki Virtual
+
+cpan_packages: []
+
+provision: []
+
+alpine_packages:
+  - alpine-sdk
+  - bind-tools
+  - bash
+  - fail2ban
+  - htop
+  - nginx
+  - mailcap
+  - openssl
+  - postfix
+  - perl
+  - perl-algorithm-diff
+  - perl-algorithm-diff-xs
+  - perl-app-cpanminus
+  - perl-archive-zip
+  - perl-authen-sasl
+  - perl-cgi
+  - perl-cgi-session
+  - perl-convert-pem
+  - perl-crypt-eksblowfish
+  - perl-crypt-openssl-verify
+  - perl-crypt-passwdmd5
+  - perl-crypt-smime
+  - perl-crypt-x509 
+  - perl-db
+  - perl-dbd-sqlite
+  - perl-dbi
+  - perl-digest-perl-md5
+  - perl-digest-sha1
+  - perl-email-address-xs
+  - perl-email-mime
+  - perl-email-simple
+  - perl-encode
+  - perl-error
+  - perl-fcgi
+  - perl-fcgi-procmanager
+  - perl-file-copy-recursive
+  - perl-file-remove
+  - perl-html-tree
+  - perl-io-socket-inet6
+  - perl-io-socket-ssl
+  - perl-json
+  - perl-json-xs
+  - perl-libwww
+  - perl-locale-codes
+  - perl-locale-maketext-lexicon
+  - perl-locale-msgfmt
+  - perl-lwp-protocol-https
+  - perl-mime-base64
+  - perl-uri
+  - screen
+  - shadow
+  - tzdata
+  - unzip
+  - wget
+  - zip

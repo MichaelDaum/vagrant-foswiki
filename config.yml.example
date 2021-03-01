@@ -1,0 +1,35 @@
+# Local configuration file
+# See config/default.config.yml for more options
+
+# Desc: Foswiki
+# box: generic/alpine313
+#
+# host_name: foswiki.vagrant.test
+# memory: 2048,
+# cpus: 2,
+#
+# foswiki_version: 2.1.6
+# foswiki_password: 
+
+# foswiki_site_preferences:
+#  - WIKITOOLNAME: Foswiki Virtual
+
+# foswiki_packages:
+#   - TopicTitlePlugin
+#   - NginxPageCachePlugin
+#   - XSendFileContrib
+#
+# cpan_packages:
+#   - ...
+# 
+# alpine_packages:
+#   - ...
+#
+# http_proxy: 
+#
+# mail_relay_host: 
+# mail_root_alias:
+
+# include:
+#   - config/NatSkin.yml
+

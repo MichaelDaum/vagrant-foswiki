@@ -1,0 +1,53 @@
+alpine_packages:
+  - antiword
+  - imagemagick
+  - imagemagick-perlmagick
+  - lynx
+  - msttcorefonts-installer
+  - odt2txt
+  - openjdk8-jre
+  - perl-chi
+  - perl-encode
+  - perl-error
+  - perl-file-tail
+  - perl-file-which
+  - perl-json
+  - perl-json-xs
+  - perl-libwww
+  - perl-module-pluggable
+  - perl-moo
+  - perl-spreadsheet-parseexcel
+  - perl-spreadsheet-xlsx
+  - perl-xml-easy 
+  - poppler-utils
+  - expat-dev
+
+missing:
+  - calibre: for ebooks
+  - ppthtml: for ppt files
+
+cpan_packages:
+  - Types::Standard
+  - Spreadsheet::Read
+  - Spreadsheet::Write
+  - Spreadsheet::ParseXLSX
+
+foswiki_packages:
+  - SolrPlugin
+  - AutoTemplatePlugin
+  - CacheContrib
+  - FilterPlugin
+  - FlexWebListPlugin
+  - ImagePlugin
+  - JQMomentContrib
+  - JQPhotoSwipeContrib
+  - JQSerialPagerContrib
+  - JQTwistyContrib
+  - MultiLingualPlugin
+  - StringifierContrib
+  - TopicTitlePlugin
+  - RenderPlugin
+
+provision:
+  - scripts/install-solr.sh
+  - scripts/SolrPlugin.sh
