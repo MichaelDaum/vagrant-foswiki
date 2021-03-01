@@ -2,7 +2,7 @@
 # See config/default.config.yml for more options
 
 # Desc: Foswiki
-# box: generic/alpine313
+# box: generic/alpine312
 #
 # host_name: foswiki.vagrant.test
 # memory: 2048,
