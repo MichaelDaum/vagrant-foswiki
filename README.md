@@ -13,20 +13,20 @@ All required perl packages are installed with it. Those perl packages not covere
 
 Installing vagrant and libvirt:
 
-``
+```
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
 apt-add-repository ppa:jacob/virtualisation
 apt install vagrant
 apt install qemu-kvm libvirt-daemon-system libvirt-clients virtinst cpu-checker libguestfs-tools libosinfo-bin libvirt-dev build-essential
-``
+```
 
 Add your user to the libvirt and kvm group
 
-``
+```
 adduser <NAME> libvirt
 adduser <NAME> kvm
-``
+```
 
 Install the libvirt plugin for vagrant
 
