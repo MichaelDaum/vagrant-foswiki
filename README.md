@@ -37,7 +37,7 @@ vagrant plugin install vagrant-libvirt
 Copy the example configuration and modify it to your needs:
 
 ``
-cp copy.yml.example copy.yml
+cp config.yml.example config.yml
 ``
 
 Start the build process:
